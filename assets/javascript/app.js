@@ -79,8 +79,6 @@ $(document).ready(function() {
     }
     searchGifs.createButtons();
 
-
-
     $('#submitTerm').click(searchGifs.addSearchTerms);
     $(document).on('click', '.searchButtons', searchGifs.displayResults);
 });

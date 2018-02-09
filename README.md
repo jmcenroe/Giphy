@@ -11,8 +11,11 @@ https://jmcenroe.github.io/Giphy/
 ![Screen shot](assets/images/start.jpeg)
 Clicking on any button displays gifs relating to that theme
 
-![Screen shot 2](assets/images/search.jpeg)
-Input a new theme and when you click the new button that is created, gifs will appear below.
+![Screen shot 2](assets/images/search.png)
+Input a new theme
+
+![Screen shot 3](assets/images/results.png)
+When you click the new button that is created, gifs will appear below
 
 ## Technologies used
 - Bootstrap

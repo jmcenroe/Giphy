@@ -1,34 +1,48 @@
-#userInput {
-	margin-top: 100px;
-  }
-  
-  #header {
+#header {
 	font-size: 100px;
-  }
+}
   
-  body {
+body {
 	font-family: 'Ubuntu Mono', monospace;
-  }
+}
+
+.container {
+  width: 100%;
+}
+
+.searchButtons {
+  font-size: 20px;
+	margin: 20px 10px;
+}
+
+#userInput {
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+#gifInstructions {
+  margin-top: 25px;
+}
+
+.form-inline {
+  margin-left: 90px;
+}
   
-  .gif {
+.gif {
 	border: #000 solid 7px;
+}
   
-  }
-  
-  .gifContainer {
+.gifContainer {
 	margin: 10px;
 	display: inline-block;
-  }
-  .searchButtons {
-	margin: 7px 10px;
-  }
+}
   
-  .gifRating {
+.gifRating {
 	color: #000;
 	font-size: 17px;
-  }
+}
   
-  .gif:hover {
+.gif:hover {
 	cursor: pointer;
 	border: #f1c40f solid 7.5px;
-  }
+}

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var searchGifs = {
-        searchTerms: ["helicopters", "cars", "planes", "lol", "jump", "fall", "laugh", "cute", "awwww"],
+        searchTerms: ["helicopters", "cars", "planes", "pink panther", "birthday", "le mans", "photography"],
         createButtons: function() {
             for (var i = 0; i < searchGifs.searchTerms.length; i++) {
                 var newBttn = $('<button>');
@@ -33,7 +33,7 @@ $(document).ready(function() {
 
             var userQuery = $(this).data('search');
             var key = "&api_key=dc6zaTOxFJmzC";
-            var limit = "&limit=10"
+            var limit = "&limit=100"
             var reqUrl = "https://api.giphy.com/v1/gifs/search?q=" + userQuery + limit + key;
             // console.log(reqUrl);
             $.ajax({

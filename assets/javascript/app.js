@@ -4,12 +4,12 @@ $(document).ready(function() {
         searchTerms: ["cake", "presents", "music", "candles"],
         createButtons: function() {
             for (var i = 0; i < searchGifs.searchTerms.length; i++) {
-                var newBttn = $('<button>');
-                newBttn.attr("data-search", searchGifs.searchTerms[i]);
-                newBttn.addClass("btn");
-                newBttn.addClass("searchButtons");
-                newBttn.text(searchGifs.searchTerms[i]);
-                $('#searchButtonsContainer').append(newBttn);
+                var newBtn = $('<button>');
+                newBtn.attr("data-search", searchGifs.searchTerms[i]);
+                newBtn.addClass("btn");
+                newBtn.addClass("searchButtons");
+                newBtn.text(searchGifs.searchTerms[i]);
+                $('#searchButtonsContainer').append(newBtn);
             }
         },
         addSearchTerms: function(e) {
@@ -18,12 +18,12 @@ $(document).ready(function() {
 
           if (searchGifs.searchTerms.indexOf(userTerm) < 0 && userTerm.length > 0) {
               searchGifs.searchTerms.push(userTerm);
-              var newBttn = $('<button>');
-              newBttn.attr("data-search", userTerm);
-              newBttn.addClass("btn");
-              newBttn.addClass("searchButtons");
-              newBttn.text(userTerm);
-              $('#searchButtonsContainer').append(newBttn);
+              var newBtn = $('<button>');
+              newBtn.attr("data-search", userTerm);
+              newBtn.addClass("btn");
+              newBtn.addClass("searchButtons");
+              newBtn.text(userTerm);
+              $('#searchButtonsContainer').append(newBtn);
           }
 
         },

@@ -1,6 +1,8 @@
-# Giphy Search
+# Giphy Birthday
 
-Implements the Giphy API. Displays birthday-related gifs when the button clicked. Hover your mouse over images and the gifs will animate. Enter your own search terms and hit Search to add it to the list.
+Ever forget to wish someone in your life a happy birthday? Fear not, for Giphy Birthday has you covered (at least in the card/recognition department).
+
+This app implements the Giphy API. Display birthday-related gifs when you click on a button. Click any of the images and the gifs will animate. Enter your own search terms and hit Search to add it to the list.
 
 ## Getting Started
 https://jmcenroe.github.io/Giphy/ 

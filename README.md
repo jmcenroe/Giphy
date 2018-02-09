@@ -1,8 +1,19 @@
-# Giphy
-A start, stop, append gif app
+# Giphy Search
 
-Implements the Giphy API. Displays gifs about different types of food, depending on which button is clicked 
+Implements the Giphy API. Displays birthday-related gifs when the button clicked. Hover your mouse over images and the gifs will animate. Enter your own search terms and hit Search to add it to the list.
 
-Gifs animate when your mouse hovers over image
+## Getting Started
+https://jmcenroe.github.io/Giphy/ 
 
-You can input reate new show buttons by typing in a type of food in the input field
+## Screen Shot
+![Screen shot](assets/images/start.jpeg)
+Clicking on any button displays gifs relating to that theme
+
+![Screen shot 2](assets/images/search.jpeg)
+Input a new theme and when you click the new button that is created, gifs will appear below.
+
+## Technologies used
+- Bootstrap
+- jQuery
+- Giphy API
+

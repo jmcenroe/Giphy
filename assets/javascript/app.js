@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var searchGifs = {
-        searchTerms: ["helicopters", "cars", "planes", "pink panther", "birthday", "le mans", "photography"],
+        searchTerms: ["cake", "presents", "music", "candles"],
         createButtons: function() {
             for (var i = 0; i < searchGifs.searchTerms.length; i++) {
                 var newBttn = $('<button>');
